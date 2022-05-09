@@ -17,6 +17,8 @@
 		143D8807282937160018A31B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D87DD282937110018A31B /* ContentView.swift */; };
 		143D8808282937160018A31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143D87DE282937160018A31B /* Assets.xcassets */; };
 		143D8809282937160018A31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143D87DE282937160018A31B /* Assets.xcassets */; };
+		143D8819282939B50018A31B /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D8818282939B50018A31B /* MyWebView.swift */; };
+		143D881A282939B50018A31B /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D8818282939B50018A31B /* MyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		143D87FC282937160018A31B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143D8800282937160018A31B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		143D8802282937160018A31B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		143D8818282939B50018A31B /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				143D87DC282937110018A31B /* sample_webviewApp.swift */,
 				143D87DD282937110018A31B /* ContentView.swift */,
 				143D87DE282937160018A31B /* Assets.xcassets */,
+				143D8818282939B50018A31B /* MyWebView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -301,6 +305,7 @@
 			files = (
 				143D8806282937160018A31B /* ContentView.swift in Sources */,
 				143D8804282937160018A31B /* sample_webviewApp.swift in Sources */,
+				143D8819282939B50018A31B /* MyWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				143D8807282937160018A31B /* ContentView.swift in Sources */,
 				143D8805282937160018A31B /* sample_webviewApp.swift in Sources */,
+				143D881A282939B50018A31B /* MyWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
